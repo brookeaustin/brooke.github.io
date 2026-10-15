@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Brooke</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg sticky-top site-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Brooke<span class="brand-dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+              <i class="bi bi-moon-stars"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header class="page-header">
+      <div class="container">
+        <p class="eyebrow">Say hello</p>
+        <h1 class="display-title">Let's Connect</h1>
+        <p class="section-sub mb-0">I'm open to internships, informational interviews, and good conversations about hospitality tech.</p>
+      </div>
+    </header>
+
+    <section class="section-pad">
+      <div class="container">
+        <div class="row g-4">
+          <!-- TODO: replace the placeholder email and profile links with your own -->
+          <div class="col-sm-6 col-lg-3">
+            <div class="card contact-card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-envelope contact-icon"></i>
+                <h2 class="h5">Email</h2>
+                <p class="contact-detail">brooke.austin-1@ou.edu</p>
+                <a href="mailto:your.email@ou.edu" class="btn btn-accent btn-sm">Send an Email</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card contact-card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-linkedin contact-icon"></i>
+                <h2 class="h5">LinkedIn</h2>
+                <p class="contact-detail">Professional profile</p>
+                <a href="https://www.linkedin.com/in/brooke-austin" target="_blank" rel="noopener" class="btn btn-accent btn-sm">View LinkedIn</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card contact-card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-github contact-icon"></i>
+                <h2 class="h5">GitHub</h2>
+                <p class="contact-detail">Code and class projects</p>
+                <a href="https://github.com/brookeaustin/brooke.github.io" target="_blank" rel="noopener" class="btn btn-accent btn-sm">View GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card contact-card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-file-earmark-person contact-icon"></i>
+                <h2 class="h5">Resume</h2>
+                <p class="contact-detail">PDF download</p>
+                <!-- Add your resume as images/resume.pdf or change this link -->
+                <a href="file:///C:/Users/bnaus/OneDrive/Documents/Brooke%20Resume-1-1.pdf" target="_blank" class="btn btn-accent btn-sm">View Resume</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-lg-8 mx-auto">
+            <div class="alert note-alert text-center mb-0" role="alert">
+              <i class="bi bi-geo-alt me-1"></i> Based in Norman, OK and the Dallas area. Open to roles in Texas, Oklahoma, or remote.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <p class="mb-0">&copy; <span id="year"></span> Brooke. Built with Bootstrap.</p>
+      <a href="#" class="back-top" id="backToTop"><i class="bi bi-arrow-up"></i> Back to top</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
